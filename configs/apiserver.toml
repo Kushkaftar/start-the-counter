@@ -1,1 +1,5 @@
 bind_addr = ":8081"
+log_level = "debug"
+
+[store]
+database_url = "root:admin@tcp(localhost:3306)/sup_counters"
